@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+ import React from "react";
+import Jsx from "./componentes/Jsx";
+/*  import Lista from "./componentes/Lista";
+import Contador from "./componentes/contador";
+import Formulario from "./componentes/Formulario"; 
+import P from "./componentes/Hook-form";   */
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-5">
+      <Jsx />
+      {/* <Lista />
+      <Contador />
+      <Formulario /> 
+       <P/>   */}
+      
     </div>
   );
 }
